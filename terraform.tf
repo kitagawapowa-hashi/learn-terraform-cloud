@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "tfc-pov-sap-mc"
-
-    workspaces {
-      name = "kellyk-learn-terraform-cloud-tutorial"
-    }
-  }
+#  cloud {
+#    organization = "tfc-pov-sap-mc"
+#
+#    workspaces {
+#      name = "kellyk-learn-terraform-cloud-tutorial"
+#    }
+#  }
 
   required_providers {
     aws = {
