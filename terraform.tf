@@ -1,10 +1,10 @@
 terraform {
 
   cloud {
-    organization = "organization-name"
+    organization = "tfc-pov-sap-mc"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "kellyk-learn-terraform-cloud-tutorial"
     }
   }
 
